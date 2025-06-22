@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",          // Version JS cible
+    "module": "commonjs",        // Module compatible Node.js
+    "outDir": "./dist",          // Dossier de sortie compilé
+    "rootDir": "./src",          // Dossier source TS
+    "strict": true,              // Vérifications strictes
+    "esModuleInterop": true,     // Import ES compatible CommonJS
+    "forceConsistentCasingInFileNames": true
+    
+  }
+}
